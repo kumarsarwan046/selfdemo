@@ -24,6 +24,7 @@ namespace self
             }
             if (k == 2)
             {
+                // adding comments
                 Console.WriteLine("Entered Number is a Prime Number and the Largest Factor is {0}", num);
             }
             else

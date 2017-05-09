@@ -8,19 +8,32 @@ namespace self
 {
     class Prime
     {
-        public void display()
-        {
-            Console.WriteLine("This is the program to check whether a number is prime or not ");
-        }
+       
 
         static void Main(string[] args)
         {
-            Prime p = new Prime();
-            p.display();
-            Console.Write("Enter a Number : ");
-            int num;
-            num = Convert.ToInt32(Console.ReadLine());
-            int k;
+           
+            //Console.Write("Enter a Number : ");
+            int num=5;
+           // num = Convert.ToInt32(Console.ReadLine());
+
+
+
+            // Implementing the logic for even and odd
+
+
+            if(num%2==0)
+            {
+                Console.WriteLine("It is an even number");
+            }
+            else
+            {
+                Console.WriteLine("It is an odd number");
+            }
+
+
+
+           /* int k;
             k = 0;
             for (int i = 1; i <= num; i++)
             {
@@ -39,6 +52,7 @@ namespace self
                 Console.WriteLine("Not a Prime Number");
                // Console.WriteLine("You can enter another number");
             }
+            */
             Console.ReadLine();
         }
     }

@@ -24,7 +24,7 @@ namespace self
 
             if(num%2==0)
             {
-                Console.WriteLine("It is an even number created by SK");
+                Console.WriteLine("It is an even number created by SKs");
             }
             else
             {

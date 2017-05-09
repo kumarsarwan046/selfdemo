@@ -8,8 +8,15 @@ namespace self
 {
     class Prime
     {
+        public void display()
+        {
+            Console.WriteLine("This is the program to check whether a number is prime or not ");
+        }
+
         static void Main(string[] args)
         {
+            Prime p = new Prime();
+            p.display();
             Console.Write("Enter a Number : ");
             int num;
             num = Convert.ToInt32(Console.ReadLine());
@@ -30,7 +37,7 @@ namespace self
             else
             {
                 Console.WriteLine("Not a Prime Number");
-                Console.WriteLine("You can enter another number");
+               // Console.WriteLine("You can enter another number");
             }
             Console.ReadLine();
         }

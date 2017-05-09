@@ -29,6 +29,7 @@ namespace self
             else
             {
                 Console.WriteLine("Not a Prime Number");
+                Console.WriteLine("You can enter another number");
             }
             Console.ReadLine();
         }
